@@ -1,5 +1,4 @@
-
-# **Pod Crawler**
+# **Pod-Castaway**
 
 Do you love podcasts but find yourself spending more time searching for the perfect episode than actually enjoying them?
 
@@ -36,12 +35,15 @@ To get started, follow these steps:
 
 1. **Fork and Clone Repository**: Fork this repository on GitHub and then clone it locally to your computer. You can do this using Git commands or GitHub Desktop. If you're new to forking and cloning, you can find instructions [here](https://docs.github.com/en/get-started/quickstart/fork-a-repo).
 
+--- 
 
 2. **Install Dependencies**: Make sure you have all the required Python libraries installed. You can do this by running the following command:
 
 ```
 pip install -r requirements.txt
 ```
+
+--- 
 
 3. **Configure Podcasts**: Open the **download.py** and **transcripts.py** files and edit the podcast_list located at the bottom of each file.
 
@@ -60,16 +62,15 @@ You can add as many podcasts as you want by creating additional Podcast objects.
 
 - **Discover Podcast RSS Feeds**: In order to obtain RSS feed url's, you can use services like [getrssfeed.com](https://getrssfeed.com). It helps us to discover and extract RSS feeds from various sources, including Apple Podcasts, Google Podcasts, SoundCloud, and blogs/websites. Once you have the RSS feed URL for a podcast, you can proceed to configure the program.
 
-
-
-
+--- 
 
 4. **Set Limits and Search Terms**: You can specify how many podcast episodes you want to download from each podcast by modifying the **"limit"** variable. 
 
 Additionally, you can customize the search term to filter which types of episodes you want to download.
 
-- In my implementation, the search term is set to **'zuckerberg'**, and the limit is set to **'1'**. Modify these values to suit your preferences.
+In my implementation, the search term is set to **'zuckerberg'**, and the limit is set to **'1'**. Modify these values to suit your preferences.
 
+--- 
 
 5. **Run the Bash Script**: Execute the bash script **run_all.sh** to initiate the download and transcription process for your selected podcasts.
 
