@@ -104,3 +104,5 @@ If you would like to contribute to the project, please fork the repository and m
 
 ## **Support my work** 
 Do ⭐ the repository, if it inspired you, gave you ideas for your own project or helped you in any way !!!
+
+Special thanks to [Keith Galli](https://github.com/keithgalli) for inspiration. Watch the tutorial on YouTube: [tutorial](https://www.youtube.com/watch?v=TmTd7drDPDA&t=1590s).
